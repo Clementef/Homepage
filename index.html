@@ -57,46 +57,54 @@
 <style>
 html {
 }
+:root {
+	--bg: #282a36;
+	--bg2: #383b4c;
+	--outline: #bd93f9;
+	--link: #747999;
+	--title: #99a2bf;
+	--white: #f8f8f2;
+}
 body {
-	background-color:#282a36;
+	background-color: var(--bg);
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 15pt;
-	color: #f8f8f2;
-}
-.zero {
-display:none;
-}
-.widgetcontainer {
-	outline: 2px solid #bd93f9;
-}
-.vcenter {
-	margin:0;
-	position:absolute;
-	top:50%;
-	-ms-transform:translateY(-50%);
-	transform:translateY(-50%);
+	color: var(--title);
 }
 
-.nowrap {
-	white-space: nowrap;
+a {
+	text-decoration: none;
+	/*border-bottom: 1px solid var(--white);*/
+	color: var(--link);
 }
 
+a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid var(--link);
+	color: var(--title);
+}
 
 #searchbar{
 	/*border-radius: 10px;*/
-	border: 1px solid grey;
-	outline: 2px solid #bd93f9;
-	background-color:#282a36;
-	color: #f8f8f2;
- }
-
- input[type=text] {
-    width: 70%;
-    -webkit-transition: width 0.1s ease-in-out;
-    transition: width 0.1s ease-in-out;
- }
-
- input[type=text]:focus {
-   width: 100%;
- }
+	border: 1px;
+	background-color: var(--bg);
+	color: var(--title);
+}
+input[type=text] {
+	width: 90%;
+	outline: 2px solid var(--outline);
+	-webkit-transition: width 0.1s ease-in-out;
+	transition: width 0.1s ease-in-out;
+}
+input[type=text]:focus {
+	width: 100%;
+	outline: 3px solid var(--outline);
+}
+.widgetcontainer {
+	background-color: var(--bg);
+	outline: 2px solid var(--outline);
+}
+.nowrap {
+	white-space: nowrap;
+}
 </style>
