@@ -1,5 +1,5 @@
-
-:root {
+   
+ :root {
   --bg: #282a36;
   --outline: #bd93f9;
   --link: #747999;
@@ -25,7 +25,7 @@ a {
   /*border-bottom: 1px solid var(--white);*/
   color: var(--link);
   white-space: nowrap;
-  margin: 1px 1px 1px 1px;
+  margin: 3px;
 }
 
 a:hover {

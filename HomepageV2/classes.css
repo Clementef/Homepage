@@ -42,9 +42,11 @@
 .widgettitle {
   text-align: center;
   color: var(--title);
+  font-size: 30px;
+  padding: 10px;
 }
 
 .floating {
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
+  margin: 10px;
+  padding: 10px;
 }
