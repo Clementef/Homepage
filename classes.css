@@ -46,6 +46,16 @@
   padding: 10px;
 }
 
+.inlinelink {
+  display: inline-block;
+}
+
+.linkpad {
+  padding: 0px;
+  margin: 0px;
+  margin-right: -4px;
+}
+
 .floating {
   margin: 10px;
   padding: 10px;
