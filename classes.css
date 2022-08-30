@@ -1,0 +1,56 @@
+.widgetcontainer {
+  background-color: var(--bg);
+  outline: 2px solid var(--outline);
+}
+
+.fcontainer {
+  display: flex;
+}
+
+.fcenter {
+  justify-content: center;
+}
+
+.falign {
+  align-items: center;
+}
+
+.fcol {
+  flex-direction: column;
+}
+
+.frow {
+  flex-direction: row;
+}
+
+.fwrap {
+  flex-wrap: wrap;
+}
+
+.fnowrap {
+  flex-wrap: nowrap;
+}
+
+.fgrow {
+  flex-grow: 1;
+}
+
+.widget {
+  outline: var(--outline) solid 2px;
+}
+
+.widgettitle {
+  text-align: center;
+  color: var(--title);
+  font-size: 30px;
+  padding: 10px;
+}
+
+.floating {
+  margin: 10px;
+  padding: 10px;
+}
+
+.pad {
+  padding: 10px;
+}
